@@ -1,0 +1,193 @@
+* {
+    padding: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%; 
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 0;
+    justify-content: center;
+}
+
+/* Apply styles to anchor links within elements with id 'world' */
+#world a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Apply styles to anchor links within elements with id 'world' on hover */
+#world a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Apply styles to elements with class 'overlay' */
+.overlay {
+    position: fixed;
+    z-index: 10000;
+    display: flex;
+    background-color: #070301;
+    border-radius: 8px;
+    padding: 5px 10px;
+    bottom: 5px;
+    right: 15px;
+}
+
+/* Apply styles to anchor links within elements with class 'overlay' */
+.overlay a {
+    text-decoration: none;
+    align-self: center;
+    padding-left: 5px;
+    color: #fff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Apply styles to anchor links within elements with class 'overlay' on hover */
+.overlay a:hover {
+    opacity: 0.5;
+}
+
+/* Apply styles to the 'container' object */
+#container {
+    position: absolute;
+    width: 80%;
+    height: 100vh; 
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+/* Apply styles to the 'HeaderFrame' element */
+#HeaderFrame {
+    display: flex; /* Use flexbox to control the layout */
+    align-items: center; /* Vertically center the content */
+    width: 430px;
+    height: 95px;
+}
+
+/* Apply styles to the 'MyShroomGasIcon' element inside 'HeaderFrame' */
+#MyShroomGasIcon {
+    width: auto;
+    max-height: 100%;
+}
+
+/* Apply styles to the 'TextHeader' element inside 'HeaderFrame' */
+#TextHeader {
+    flex: 1;
+    max-width: 70%;
+    height: auto;
+    align-self: center;
+    font-family: "Passero One", sans-serif;
+    font-weight: Regular;
+    font-size: 30px;
+    text-align: left;
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    transform: matrix(1.00, 0.00, 0.00, 1.00, 0, 0);
+}
+
+/* Apply styles to the 'mainFrame' element */
+#mainFrame {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 75vw;
+    height: 60vh;
+}
+
+/* Apply styles to the 'TextFrame' element */
+#TextFrame {
+    max-width: 40%;
+    height: 100%;
+}
+
+/* Apply styles to the 'TextLema' element inside 'TextFrame' */
+#TextLema {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: left;
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    transform: matrix(1.00, 0.00, 0.00, 1.00, 0, 0);
+}
+
+/* Apply styles to the 'TextDesc' element inside 'TextFrame' */
+#TextDesc {
+    width: 75%;
+    height: auto;
+    margin-top: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    transform: matrix(1.00, 0.00, 0.00, 1.00, 0, 0);
+}
+
+/* Apply styles to the 'DiscordFrame' element */
+#DiscordFrame {
+    display: flex;
+    width: 45%;
+    height: 10%;
+    background-color: rgb(57, 148, 255);
+    opacity: 1;
+    border-radius: 12.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/* Apply styles to the 'BotInvitation' element inside 'DiscordFrame' */
+#BotInvitation {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    padding: 5%;
+    padding-right: 0;
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    transform: matrix(1.00, 0.00, 0.00, 1.00, 0, 0);
+}
+
+/* Apply styles to the 'DiscordIcon' element inside 'DiscordFrame' */
+#DiscordIcon {
+    flex: 1;
+    padding: 5.5%;
+    padding-right: 10%;
+    padding-left: 0;
+    width: auto;
+    height: 100%;
+}
+
+/* Apply styles to the 'HeaderFrame' element */
+#ImageFrame {
+    max-width: 60%;
+    height: 100%;
+}
+
+/* Apply styles to the 'forageImage' element */
+#forageImage {
+    width: 100%;
+    height: auto;
+    left: -15%;
+}
+
+/* Apply styles to the 'MyShroomRotate' element */
+#MyShroomRotate {
+    margin-left: 4%;
+    width: auto;
+    height: 20%;
+}
