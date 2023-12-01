@@ -1,51 +1,78 @@
 <!DOCTYPE html>
-<html class="no-js" lang=""><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
-	<title>MyShroomBot</title>
-	<meta name="description" content="Discover MyShroom! An IA for identifying mushrooms and share them with your friends!">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="images/icon.png">
-	<link rel="shortcut icon" href="images/icon.png">
-  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="styles/classes.css">
+<html class="no-js" lang="">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>MyShroomBot</title>
+    <meta
+      name="description"
+      content="Discover MyShroom! An IA for identifying mushrooms and share them with your friends!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/icon.png" />
+    <link rel="shortcut icon" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="styles/classes.css" />
   </head>
-	<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="fade-up" style="background-color: rgba(0, 0, 8, 1)">
-    <div class="overlay"> 
-      <a target="_blank" href="https://discord.gg/GGduexvNwr">Join our Discord!</a>
+  <body
+    data-aos-easing="ease"
+    data-aos-duration="400"
+    data-aos-delay="fade-up"
+    style="background-color: rgba(0, 0, 8, 1)"
+  >
+    <div class="overlay">
+      <a target="_blank" href="https://discord.gg/GGduexvNwr"
+        >Join our Discord!</a
+      >
     </div>
     <div id="container">
       <div id="HeaderFrame">
-        <img id="MyShroomGasIcon" src="images/icon_gas.png">
+        <img id="MyShroomGasIcon" src="images/icon_gas.png" />
         <p id="TextHeader">MyShroom</p>
       </div>
       <main id="mainFrame">
         <div id="TextFrame" class="Frame">
           <p id="TextLema">Forage. Discover. Share.</p>
-          <p id="TextDesc">MyShroom is a bot that lets you identify mushrooms without isolating you from the 
-            massive and enthusiastic mushroom community. Share your discoveries with us!</p>
+          <p id="TextDesc">
+            MyShroom is a bot that lets you identify mushrooms without isolating
+            you from the massive and enthusiastic mushroom community. Share your
+            discoveries with us!
+          </p>
           <div id="DiscordFrame">
-            <a id="BotInvitation" target="_blank" href = "https://discord.com/api/oauth2/authorize?client_id=
-             1153444944791486484&permissions=3072&scope=bot">Add to Discord</a>
-            <img id="DiscordIcon" src="images/discord.png">
-         </div>
+            <a
+              id="BotInvitation"
+              target="_blank"
+              href="https://discord.com/api/oauth2/authorize?client_id=
+             1153444944791486484&permissions=3072&scope=bot"
+              >Add to Discord</a
+            >
+            <img id="DiscordIcon" src="images/discord.png" />
+          </div>
         </div>
         <div id="ImageFrame">
-          <img id="forageImage" src="images/forage.png">          
-
+          <img id="forageImage" src="images/forage.png" />
         </div>
       </main>
-      <img id="MyShroomRotate" src="images/icon_rotate.png">
+      <div id="DownContainer">
+        <img id="MyShroomRotate" src="images/icon_rotate.png" />
+        <div id="HelpContainer">
+          <p id="TitleHelp">Instructions</p>
+          <p id="TextHelp">
+            1. Add MyShroom Bot. <br />
+            2. Type "!shroom" to identify a mushroom. If you want more info type
+            "!help". <br />
+            3. Now you can begin your adventure uploading your own photos!
+          </p>
+        </div>
+      </div>
     </div>
-	  
+
     <script>
-			AOS.init({
+      AOS.init({
         duration: 1000,
         offset: 200,
-        easing: 'ease-in-out'
-      })
-    
+        easing: "ease-in-out",
+      });
     </script>
-	
-    </body>
-</html>    
+  </body>
+</html>
